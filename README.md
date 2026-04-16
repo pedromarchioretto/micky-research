@@ -6,7 +6,7 @@ A base M.I.C.K.Y. utiliza uma estrutura de perfis de alumínio industrial 40x40m
 
 - **Custo Total (BOM):** R$ 5.222,63 (aprox. $950 USD)
 - **Payload Operacional:** 32,55 kg
-- **Atuadores (Ativos):** 4x motores de passo Nema 23 com torque de 30 kgf.cm cada
+- **Atuadores:** 4x motores de passo Nema 23 com torque de 30 kgf.cm cada
 - **Rodas:** Conjunto Mecanum MEC-100 (100 mm de diâmetro). Capacidade nominal de 15 kg por roda
 - **Estrutura:** Chassis modular em Perfil Alumínio 40x40mm (Canal 8)
 
