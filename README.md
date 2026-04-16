@@ -2,7 +2,7 @@
 
 ## 1. Caracterização Técnica da Base M.I.C.K.Y.
 
-A base M.I.C.K.Y. utiliza uma estrutura de perfis de alumínio industrial 40x40mm e um sistema de tração baseado em rodas Mecanum. Embora o hardware inclua 6 motores, a configuração de software e cinemática utiliza 4 motores ativos para locomoção.
+A base M.I.C.K.Y. utiliza uma estrutura de perfis de alumínio industrial 40x40mm e um sistema de tração baseado em rodas Mecanum. Utilizando 4 motores de passo Nema para locomoção.
 
 - **Custo Total (BOM):** R$ 5.222,63 (aprox. $950 USD)
 - **Payload Operacional:** 32,55 kg
