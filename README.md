@@ -1,4 +1,18 @@
-# Comparative Analysis of Robotic Platforms
+# Comparative Analysis
+
+## Introduction
+
+In recent years, there has been a significant increase in interest and development within the field of mobile robotics, particularly in service and domestic environments. Competitions such as RoboCup@Home and similar international initiatives have driven the demand for robust, modular, and cost-effective robotic platforms that can support research, rapid prototyping, and real-world applications.
+
+In this context, we present the M.I.C.K.Y. mobile base, an omnidirectional robotic platform designed with a strong focus on cost-efficiency, mechanical robustness, and modularity. The platform is built using industrial-grade 40x40 mm aluminum profiles and a Mecanum wheel drive system, enabling full holonomic motion while maintaining structural integrity under significant payload conditions.
+
+Unlike many commercial and research-oriented platforms that prioritize integrated sensing and high-end components at elevated costs, the M.I.C.K.Y. base adopts a different design philosophy. It leverages Commercial Off-The-Shelf (COTS) components and a simplified mechanical architecture to achieve a high payload-to-cost ratio, making it especially suitable for teams and laboratories with limited budgets.
+
+The platform is capable of supporting payloads exceeding 30 kg while maintaining stable locomotion and reliable performance. Its modular structure allows easy integration of additional components such as robotic manipulators, sensors, and high-capacity batteries, enabling a wide range of applications in mobile manipulation, autonomous navigation, and research experimentation.
+
+Furthermore, this work provides a comparative analysis between the M.I.C.K.Y. base and other omnidirectional platforms available in the market, highlighting its efficiency in terms of cost versus payload. The results demonstrate that it occupies a unique position as a highly efficient and accessible solution for mobile robotics development.
+
+The goal of this project is not only to present a functional robotic base, but also to contribute to the accessibility of mobile robotics by offering a design that is scalable, maintainable, and economically viable for new teams entering the field.
 
 ## 1. Technical Characterization of the M.I.C.K.Y. Base
 
@@ -47,7 +61,7 @@ Below is a compilation of technical data for the requested platforms, including 
 
 The scatter plot (represented by the axes below) allows identification of design efficiency. Platforms located in the lower-right quadrant represent the highest payload delivery per dollar invested.
 
-> ![Graph](grafico_cost_vs_payload.png)
+> ![Graph](../../_static/grafico_cost_vs_payload.png)
 
 ### 3.1 M.I.C.K.Y. Positioning Discussion
 
