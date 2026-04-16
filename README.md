@@ -81,7 +81,7 @@ Embora eficiente em carga, o sistema de corrente exige lubrificação e ajuste d
 
 ## 4. Análise de Materiais e Manutenibilidade
 
-- **Chassis (Alumínio 4040 vs. Placa 3mm):**  
+- **Chassis (Alumínio 40x40mm vs. Placa 3mm):**  
 O uso de perfis 40x40mm na M.I.C.K.Y. oferece um momento de inércia de seção muito superior às chapas de 3mm do Wheeltec R550 ou ao chassis de ABS do myAGV.  
 Isso permite suportar o payload de 32,55 kg de forma estática sem risco de empenamento a longo prazo.
 
