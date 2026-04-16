@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In recent years, there has been a significant increase in interest and development within the field of mobile robotics, particularly in service and domestic environments. Competitions such as RoboCup@Home and similar international initiatives have driven the demand for robust, modular, and cost-effective robotic platforms that can support research, rapid prototyping, and real-world applications.
+In recent years, there has been a significant increase in interest and development within the field of mobile robotics, particularly in service and domestic environments. Competitions such as RoboCup@Industrial and similar international initiatives have driven the demand for robust, modular, and cost-effective robotic platforms that can support research, rapid prototyping, and real-world applications.
 
 In this context, we present the M.I.C.K.Y. mobile base, an omnidirectional robotic platform designed with a strong focus on cost-efficiency, mechanical robustness, and modularity. The platform is built using industrial-grade 40x40 mm aluminum profiles and a Mecanum wheel drive system, enabling full holonomic motion while maintaining structural integrity under significant payload conditions.
 
