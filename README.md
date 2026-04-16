@@ -34,7 +34,7 @@ Abaixo, a compilação dos dados técnicos das bases solicitadas, incluindo mode
 
 | Modelo (Etiqueta) | Payload (kg) | Custo (USD) | Tipo de Tração | Eficiência ($/kg) |
 |------------------|-------------|------------|----------------|------------------|
-| M.I.C.K.Y. | 32,55 | $950 | Mecanum (4 eixos) | $29,18 |
+| M.I.C.K.Y. | 32,55 | ~$950 | Mecanum (4 eixos) | $29,18 |
 | Wheeltec R550 | 15,00 | $532 | Mecanum (4 eixos) | $35,46 |
 | myAGV 2023 Pi | 5,00 | $949 | Mecanum (Planetário) | $189,80 |
 | Mecabot Pro | 22,00 | $6.918 | Mecanum (c/ Suspensão) | $314,45 |
