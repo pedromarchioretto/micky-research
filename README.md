@@ -2,18 +2,19 @@
 
 ## Introduction
 
-In recent years, there has been a significant increase in interest and development within the field of mobile robotics, particularly in service and domestic environments. Competitions such as RoboCup@Industrial and similar international initiatives have driven the demand for robust, modular, and cost-effective robotic platforms that can support research, rapid prototyping, and real-world applications.
-In recent years, there has been a significant increase in interest and development within the field of mobile robotics, particularly in service and domestic environments. Competitions such as RoboCup@Industrial and similar international initiatives have driven the demand for robust, modular, and cost-effective robotic platforms that can support research, rapid prototyping, and real-world applications.
+## Introduction
 
-In this context, we present the M.I.C.K.Y. mobile base, an omnidirectional robotic platform designed with a strong focus on cost-efficiency, mechanical robustness, and modularity. The platform is built using industrial-grade 40x40 mm aluminum profiles and a Mecanum wheel drive system, enabling full holonomic motion while maintaining structural integrity under significant payload conditions.
+The development of low-cost and accessible robotic platforms remains a critical challenge for teams entering competitive and research-oriented environments such as RoboCup@Industrial, particularly in regions with limited funding such as Latin America. High costs associated with commercial mobile bases often create a significant barrier to entry, restricting participation and slowing down innovation.
 
-Unlike many commercial and research-oriented platforms that prioritize integrated sensing and high-end components at elevated costs, the M.I.C.K.Y. base adopts a different design philosophy. It leverages Commercial Off-The-Shelf (COTS) components and a simplified mechanical architecture to achieve a high payload-to-cost ratio, making it especially suitable for teams and laboratories with limited budgets.
+In this context, we present the M.I.C.K.Y. mobile base, an omnidirectional robotic platform specifically designed to reduce this barrier by prioritizing cost-efficiency without compromising mechanical capability. The platform adopts a modular architecture based on industrial 40x40 mm aluminum profiles and a Mecanum wheel drive system, enabling holonomic motion and supporting substantial payloads.
 
-The platform is capable of supporting payloads exceeding 30 kg while maintaining stable locomotion and reliable performance. Its modular structure allows easy integration of additional components such as robotic manipulators, sensors, and high-capacity batteries, enabling a wide range of applications in mobile manipulation, autonomous navigation, and research experimentation.
+Rather than relying on expensive proprietary solutions, M.I.C.K.Y. is built using Commercial Off-The-Shelf (COTS) components and a simplified mechanical design. This approach allows the platform to achieve a high payload-to-cost ratio while remaining accessible, maintainable, and adaptable to different use cases.
 
-Furthermore, this work provides a comparative analysis between the M.I.C.K.Y. base and other omnidirectional platforms available in the market, highlighting its efficiency in terms of cost versus payload. The results demonstrate that it occupies a unique position as a highly efficient and accessible solution for mobile robotics development.
+The system is designed to support mobile manipulation, autonomous navigation, and general-purpose robotics research, while allowing straightforward integration of sensors, actuators, and additional subsystems. Its modularity ensures that the platform can evolve according to the needs of each team.
 
-The goal of this project is not only to present a functional robotic base, but also to contribute to the accessibility of mobile robotics by offering a design that is scalable, maintainable, and economically viable for new teams entering the field.
+This work also presents a comparative analysis between M.I.C.K.Y. and other omnidirectional mobile bases, emphasizing its efficiency in terms of cost versus payload. The results highlight its position as a competitive and accessible alternative for teams seeking high mechanical performance under budget constraints.
+
+Ultimately, the goal of this project is to democratize access to mobile robotics by providing a scalable, reproducible, and economically viable platform for new teams and researchers.
 
 ## 1. Technical Characterization of the M.I.C.K.Y. Base
 
