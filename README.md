@@ -2,8 +2,6 @@
 
 ## Introduction
 
-## Introduction
-
 The development of low-cost and accessible robotic platforms remains a critical challenge for teams entering competitive and research-oriented environments such as RoboCup@Industrial, particularly in regions with limited funding such as Latin America. High costs associated with commercial mobile bases often create a significant barrier to entry, restricting participation and slowing down innovation.
 
 In this context, we present the M.I.C.K.Y. mobile base, an omnidirectional robotic platform specifically designed to reduce this barrier by prioritizing cost-efficiency without compromising mechanical capability. The platform adopts a modular architecture based on industrial 40x40 mm aluminum profiles and a Mecanum wheel drive system, enabling holonomic motion and supporting substantial payloads.
@@ -16,11 +14,13 @@ This work also presents a comparative analysis between M.I.C.K.Y. and other omni
 
 Ultimately, the goal of this project is to democratize access to mobile robotics by providing a scalable, reproducible, and economically viable platform for new teams and researchers.
 
+---
+
 ## 1. Technical Characterization of the M.I.C.K.Y. Base
 
 The M.I.C.K.Y. base utilizes a structure made of industrial 40x40 mm aluminum profiles and a Mecanum wheel-based drive system. Although the hardware includes 6 motors, the software and kinematic configuration uses 4 active motors for locomotion.
 
-- **Total Cost (BOM):** R$ 5,222.63 (approx. $950 USD)
+- **Total Cost (BOM):** ~$1647.12 USD
 - **Operational Payload:** 32.55 kg
 - **Actuators (Active):** 4x NEMA 23 stepper motors with 30 kgf·cm torque each
 - **Wheels:** Mecanum MEC-100 set (100 mm diameter). Nominal capacity of 15 kg per wheel
@@ -48,7 +48,7 @@ Below is a compilation of technical data for the requested platforms, including 
 
 | Model (Label) | Payload (kg) | Cost (USD) | Drive Type | Efficiency ($/kg) |
 |--------------|-------------|------------|------------|------------------|
-| M.I.C.K.Y. | 32.55 | $950 | Mecanum (4-wheel drive) | $29.18 |
+| M.I.C.K.Y. | 32.55 | $1647.12 | Mecanum (4-wheel drive) | $50.60 |
 | Wheeltec R550 | 15.00 | $532 | Mecanum (4-wheel drive) | $35.46 |
 | myAGV 2023 Pi | 5.00 | $949 | Mecanum (planetary) | $189.80 |
 | Mecabot Pro | 22.00 | $6,918 | Mecanum (with suspension) | $314.45 |
@@ -70,13 +70,12 @@ The scatter plot (represented by the axes below) allows identification of design
 The analysis reveals that M.I.C.K.Y. occupies an **Efficiency Anomaly** niche.
 
 - **M.I.C.K.Y. vs. myAGV 2023 Pi:**  
-Both cost approximately the same ($950). However, M.I.C.K.Y. delivers **6.5× more payload** (32.55 kg vs 5 kg).  
-While myAGV focuses on a compact design with injection-molded plastic chassis and small motors, M.I.C.K.Y. uses 40x40 mm structural profiles that support robotic arms and high-density batteries without chassis deflection.
+While the cost is higher (~$1647 vs $949), M.I.C.K.Y. delivers **6.5× more payload** (32.55 kg vs 5 kg).  
+This highlights a significantly better cost-to-performance ratio in practical applications.
 
 - **M.I.C.K.Y. vs. Mecabot Pro:**  
-Mecabot Pro costs seven times more, yet its payload is **32% lower (22 kg)**.  
-The technical justification is that Mecabot Pro prioritizes integrated sensors (Orbbec/LiDAR M10P) and an independent suspension system.  
-M.I.C.K.Y. demonstrates that higher mechanical traction capacity can be achieved using industrial COTS (Commercial Off-The-Shelf) components at a fraction of the cost.
+Mecabot Pro costs over four times more, yet its payload is **32% lower (22 kg)**.  
+M.I.C.K.Y. demonstrates that higher mechanical traction capacity can be achieved using industrial COTS components at a fraction of the cost.
 
 ### 3.2 The Industrial Challenge: TIAGo OMNI Base and SuperDroid
 
@@ -84,7 +83,7 @@ These platforms represent the upper limits of payload capacity.
 
 - **TIAGo OMNI Base:**  
 It is a benchmark in service robotics design. With 207 mm wheels and industrial-grade motors, it supports a 100 kg payload.  
-M.I.C.K.Y. achieves **32% of this payload at less than 7% of the cost**, making it a viable alternative for budget-constrained laboratories requiring mobile manipulation.
+M.I.C.K.Y. achieves **~32% of this payload at ~11% of the cost**, making it a viable alternative for budget-constrained laboratories.
 
 - **SuperDroid IG52:**  
 Achieves payloads of 90 kg through a chain reduction system (10:15).  
