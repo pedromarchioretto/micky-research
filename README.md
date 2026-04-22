@@ -63,7 +63,7 @@ Below is a compilation of technical data for the requested platforms, including 
 
 The scatter plot (represented by the axes below) allows identification of design efficiency. Platforms located in the lower-right quadrant represent the highest payload delivery per dollar invested.
 
-![Graph](grafico_cost_vs_payload.png)
+![Graph](grafico_cost_vs_payload.jpeg)
 
 ### 3.1 M.I.C.K.Y. Positioning Discussion
 
