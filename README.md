@@ -26,6 +26,18 @@ The M.I.C.K.Y. base utilizes a structure made of industrial 40x40 mm aluminum pr
 - **Wheels:** Mecanum MEC-100 set (100 mm diameter). Nominal capacity of 15 kg per wheel
 - **Structure:** Modular chassis using 40x40 mm aluminum profiles (Slot 8)
 
+### 1.1 Torque and Dynamic Force Calculations
+
+The performance of the base under load is determined by the effective torque at the shafts and the wheel radius:
+
+- **Total Gross Torque ($T_{total}$):**
+
+    **$T_{total}$ = 4 × 30 kgf·cm = 120 kgf·cm ≈ 11.77 Nm**
+
+- **Total Tangential Force ($F_t$):** For wheels with radius $r = 5 cm$:
+
+    **$F_t$ = 120 kgf·cm / 5 cm = 24 kgf**
+
 With a traction force of 24 kgf for a payload of 32.55 kg (plus a base mass of ~25 kg), the platform operates with a **Traction-to-Total Weight Ratio of ~0.41**, ensuring stability during lateral strafing maneuvers without step loss under moderate accelerations.
 
 ---
@@ -51,7 +63,7 @@ Below is a compilation of technical data for the requested platforms, including 
 
 The scatter plot (represented by the axes below) allows identification of design efficiency. Platforms located in the lower-right quadrant represent the highest payload delivery per dollar invested.
 
-![Graph](grafico_cost_vs_payload.png)
+![Graph](grafico_cost_vs_payload.jpeg)
 
 ### 3.1 M.I.C.K.Y. Positioning Discussion
 
@@ -78,3 +90,13 @@ Achieves payloads of 90 kg through a chain reduction system (10:15).
 While effective for heavy loads, the chain system requires lubrication and tension adjustment, whereas M.I.C.K.Y.’s direct coupling reduces mechanical maintenance.
 
 ---
+
+## 4. Materials and Maintainability Analysis
+
+- **Chassis (40x40 mm Aluminum vs. 3 mm Plate):**  
+The use of 40x40 mm profiles in M.I.C.K.Y. provides a significantly higher section moment of inertia compared to the 3 mm plates of the Wheeltec R550 or the ABS chassis of the myAGV.  
+This enables the platform to support a 32.55 kg payload statically without long-term deformation.
+
+- **Modularity:**  
+The use of T-slot nuts within the profile rails allows repositioning of sensors such as the BNO055 and the TP-Link USB 3.0 hub to balance the center of mass as payload increases.  
+Laser-cut metal bases (Mecabot/SuperDroid) lack this flexibility without structural modifications.
